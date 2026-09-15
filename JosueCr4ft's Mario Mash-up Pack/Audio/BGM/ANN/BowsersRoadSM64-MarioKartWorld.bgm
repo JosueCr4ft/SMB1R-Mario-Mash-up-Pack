@@ -1,0 +1,10 @@
+{
+    "Normal": {
+        "source": "ANN/BowsersRoadSM64-MarioKartWorld.ogg",
+        "loop": 0
+    },
+    "Hurry": {
+        "source": "ANN/BowsersRoadSM64-MarioKartWorld-Hurry.ogg",
+        "loop": 0
+    }
+}

@@ -1,0 +1,13 @@
+{
+	"variations": {
+		"default": {
+			"source": "Liquids.png",
+			"rect": [0, 0, 512, 128]
+		},
+		"Underwater": {
+			"source": "LiquidsUnderwater.png",
+			"rect": [0, 0, 512, 128]
+		},
+		"CastleWater": {"link": "Underwater"}
+	}
+}

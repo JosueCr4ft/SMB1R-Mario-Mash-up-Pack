@@ -1,0 +1,34 @@
+{
+	"animations": {
+		"Locked": { "frames": [[0, 0, 16, 32]], "speed": 5, "loop": true },
+		"Idle": { "frames": [[0, 0, 16, 32]], "speed": 5, "loop": true },
+		"Open": {
+			"frames": [
+				[16, 0, 16, 32]
+			],
+			"speed": 10,
+			"loop": false
+		},
+		"Close": {
+			"frames": [
+				[0, 0, 16, 32]
+			],
+			"speed": 10,
+			"loop": false
+		}
+	},
+	"variations": {
+		"default": {"source": "Doors.png", "rect": [0, 0, 32, 32]},
+		"Snow": {"source": "Doors.png", "rect": [32, 0, 32, 32]},
+		"Autumn": {"source": "Doors.png", "rect": [64, 0, 32, 32]},
+		"Desert": {"source": "Doors.png", "rect": [96, 0, 32, 32]},
+		"Volcano": {"source": "Doors.png", "rect": [0, 32, 32, 32]},
+		"Jungle": {"source": "Doors.png", "rect": [32, 32, 32, 32]},
+		"Mountain": {"source": "Doors.png", "rect": [64, 32, 32, 32]},
+		"Garden": {"source": "Doors.png", "rect": [96, 32, 32, 32]},
+		"Castle": {"link": "Snow"},
+		"CastleWater": {"link": "Snow"},
+		"GhostHouse": {"link": "Autumn"},
+		"Airship": {"link": "Snow"}
+	}
+}

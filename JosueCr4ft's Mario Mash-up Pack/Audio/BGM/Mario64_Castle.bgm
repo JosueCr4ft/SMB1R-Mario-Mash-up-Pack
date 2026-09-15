@@ -1,0 +1,10 @@
+{
+    "Normal": {
+        "source": "Mario64_Castle.mp3",
+        "loop": 0
+    },
+    "Hurry": {
+        "source": "Mario64_Castle_Hurry.mp3",
+        "loop": 0
+    }
+}

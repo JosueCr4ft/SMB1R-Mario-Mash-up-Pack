@@ -1,0 +1,10 @@
+{
+    "Normal": {
+        "source": "ANN/FileSelectSM64-MarioKartWorld.ogg",
+        "loop": 0
+    },
+    "Hurry": {
+        "source": "ANN/FileSelectSM64-MarioKartWorld-Hurry.ogg",
+        "loop": 0
+    }
+}

@@ -1,0 +1,15 @@
+{
+	"animations": {
+		"default": {
+			"frames": [
+				[0, 0, 32, 16],
+				[32, 0, 32, 16],
+				[64, 0, 32, 16],
+				[96, 0, 32, 16]
+			],
+			"speed": 15,
+			"loop": true
+		}
+	},
+	"variations": {"source": "RedCheepCheep.png"}
+}

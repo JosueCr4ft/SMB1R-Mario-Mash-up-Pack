@@ -1,0 +1,42 @@
+{
+	"properties": {"sky_scroll_speed": -3},
+	"variations": {
+		"Day": {
+			"default": {"source": "DaySky.png"},
+			"Volcano": {"source": "VolcanoSky.png"},
+			"Pipeland": {"source": "PipelandSky.png"},
+			"Underground": {
+				"source": "UndergroundSky.png",
+				"properties": {"sky_scroll_speed": 0}
+			},
+			"Castle": {
+				"source": "CastleSky.png",
+				"properties": {"sky_scroll_speed": 0}
+			},
+			"Garden": {"source": "GardenSky.png"},
+			"Space": {
+				"source": "SpaceStars.png",
+				"properties": {"sky_scroll_speed": 0}
+			},
+			"Skyland": {"source": "AetherSky.png"}
+		},
+		"Night": {
+			"default": {"source": "NightStars.png"},
+			"Volcano": {"source": "VolcanoSky.png"},
+			"Pipeland": {"source": "PipelandSky.png"},
+			"Underground": {
+				"source": "UndergroundSky.png",
+				"properties": {"sky_scroll_speed": 0}
+			},
+			"Castle": {
+				"source": "CastleSky.png",
+				"properties": {"sky_scroll_speed": 0}
+			},
+			"Space": {
+				"source": "SpaceStars.png",
+				"properties": {"sky_scroll_speed": 0}
+			},
+			"Skyland": {"source": "AetherSkyNight.png"}
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+	"properties": {
+		"can_turn": true
+	},
+	"animations": {
+		"Walk": {
+			"frames": [
+				[0, 0, 16, 16],
+				[16, 0, 16, 16],
+				[0, 0, 16, 16],
+				[32, 0, 16, 16]
+			],
+			"speed": 5.0,
+			"loop": true
+		},
+		"Stomped": {
+			"frames": [[48, 0, 16, 16]],
+			"speed": 5.0,
+			"loop": true
+		}
+	},
+
+	"variations":
+	{
+		"SMB1": {
+			"default": {
+				"source": "Goomba.png",
+				"rect": [0, 0, 64, 16]
+			},
+			"Desert": {
+				"source": "Goomba.png",
+				"rect": [0, 16, 64, 16]
+			},
+			"Jungle": {"link": "Desert"},
+			"Volcano": {"link": "Desert"},
+			"Snow": {
+				"source": "Goomba.png",
+				"rect": [0, 32, 64, 16]
+			}
+		},
+		"SMBANN": {
+			"source": "DiscoGoomba.png",
+			"rect": [0, 0, 64, 16]
+		}
+	}
+}

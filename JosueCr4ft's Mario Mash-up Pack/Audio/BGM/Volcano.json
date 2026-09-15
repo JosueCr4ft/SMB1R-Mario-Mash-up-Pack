@@ -1,0 +1,9 @@
+{
+	"variations": {
+		"choices": [
+            {"source": "Mario64_FireBubble.bgm"},
+            {"source": "Mario64_CaveDungeon.bgm"},
+            {"source": "Mario64_KoopaTheme.bgm"}
+        ]
+	}
+}

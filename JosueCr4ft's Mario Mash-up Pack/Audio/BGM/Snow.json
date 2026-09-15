@@ -1,0 +1,6 @@
+{
+	"variations": {
+		"SMB1": {"source": "Mario64_SnowMountain.bgm"},
+		"SMBANN": {"source": "ANN/CoolCoolMountainSM64-MarioKartWorld.bgm"}
+	}
+}

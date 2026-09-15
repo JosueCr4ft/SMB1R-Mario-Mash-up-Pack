@@ -1,0 +1,12 @@
+{
+	"variations": {
+		"SMB1": {
+			"World1": {"source": "Mario64_KoopaTheme.bgm"},
+			"World8": {"source": "Mario64_UltimateKoopa.bgm"},
+			"World13": {"source": "Mario64_UltimateKoopa.bgm"}
+		},
+		"SMBANN": {
+			"World1": {"source": "ANN/BowsersThemeSM64-MarioKartWorld.bgm"}
+		}
+	}
+}

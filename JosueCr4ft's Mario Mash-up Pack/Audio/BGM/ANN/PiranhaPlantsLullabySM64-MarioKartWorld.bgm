@@ -1,0 +1,10 @@
+{
+    "Normal": {
+        "source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.ogg",
+        "loop": 0
+    },
+    "Hurry": {
+        "source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld-Hurry.ogg",
+        "loop": 0
+    }
+}

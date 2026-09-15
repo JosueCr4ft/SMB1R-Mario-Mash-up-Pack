@@ -1,0 +1,15 @@
+{
+	"variations": {
+		"default": {"source": "ChainChompPost.png", "rect": [0, 0, 16, 16]},
+		"Snow": {"source": "ChainChompPost.png", "rect": [16, 0, 16, 16]},
+		"Underwater": {"link": "Snow"},
+		"Castle": {"link": "Snow"},
+		"CastleWater": {"link": "Snow"},
+		"Autumn": {"source": "ChainChompPost.png", "rect": [32, 0, 16, 16]},
+		"Desert": {"source": "ChainChompPost.png", "rect": [48, 0, 16, 16]},
+		"Volcano": {"source": "ChainChompPost.png", "rect": [0, 16, 16, 16]},
+		"Jungle": {"source": "ChainChompPost.png", "rect": [16, 16, 16, 16]},
+		"Mountain": {"source": "ChainChompPost.png", "rect": [32, 16, 16, 16]},
+		"Garden": {"source": "ChainChompPost.png", "rect": [48, 16, 16, 16]}
+	}
+}

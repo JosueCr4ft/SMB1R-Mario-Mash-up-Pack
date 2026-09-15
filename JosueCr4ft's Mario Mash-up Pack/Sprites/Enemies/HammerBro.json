@@ -1,0 +1,109 @@
+{
+	"animations": {
+		"Hammer": {
+			"frames": [
+				[200, 0, 40, 40],
+				[240, 0, 40, 40],
+				[280, 0, 40, 40],
+				[240, 0, 40, 40],
+				[200, 0, 40, 40],
+				[320, 0, 40, 40],
+				[360, 0, 40, 40],
+				[320, 0, 40, 40]
+			],
+			"speed": 10,
+			"loop": true
+		},
+		"Idle": {
+			"frames": [
+				[0, 0, 40, 40],
+				[40, 0, 40, 40],
+				[80, 0, 40, 40],
+				[40, 0, 40, 40],
+				[0, 0, 40, 40],
+				[120, 0, 40, 40],
+				[160, 0, 40, 40],
+				[120, 0, 40, 40]
+			],
+			"speed": 10,
+			"loop": true
+		}
+	},
+	"variations": {
+		"Day": {
+			"default": {
+				"choices": [
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 80, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]}
+				]
+			},
+			"Underground": {
+				"choices": [
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 80, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]}
+				]
+			},
+			"GhostHouse": {"link": "Underground"},
+			"Castle": {"link": "Underground"},
+			"Volcano": {"link": "Underground"},
+			"Bonus": {"link": "Underground"},
+			"Underwater": {"source": "HammerBro.png", "rect": [0, 160, 400, 40]},
+			"CastleWater": {"link": "Underwater"}
+		},
+		"Night": {
+			"default": {
+				"choices": [
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 0, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 40, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 80, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]},
+					{"source": "HammerBro.png", "rect": [0, 120, 400, 40]}
+				]
+			},
+			"Underwater": {"source": "HammerBro.png", "rect": [0, 160, 400, 40]},
+			"CastleWater": {"link": "Underwater"}
+		}
+	}
+}

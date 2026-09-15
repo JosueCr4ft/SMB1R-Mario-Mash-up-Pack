@@ -1,0 +1,10 @@
+{
+	"properties":
+	{
+		"use_sprite": true,
+		"show_walls": false
+	},
+	"variations": {
+		"default": {"source": "StartFinalCastleSprite.png"}
+	}
+}

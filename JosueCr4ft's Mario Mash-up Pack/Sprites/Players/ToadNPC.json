@@ -1,0 +1,58 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 48, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"Await": {
+			"frames": [[0, 0, 48, 48]],
+			"speed": 5,
+			"loop": true
+		},
+		"Talk": {
+			"frames": [
+				[0, 0, 48, 48],
+				[48, 0, 48, 48],
+				[96, 0, 48, 48],
+				[144, 0, 48, 48],
+				[192, 0, 48, 48],
+				[240, 0, 48, 48]
+			],
+			"speed": 12,
+			"loop": true
+		}
+	},
+	"variations": {
+		"choices": [
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 0, 288, 48]
+			},
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 48, 288, 48]
+			},
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 96, 288, 48]
+			},
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 144, 288, 48]
+			},
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 192, 288, 48]
+			},
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 96, 288, 48]
+			},
+			{
+				"source": "ToadNPC.png",
+				"rect": [0, 48, 288, 48]
+			}
+		]
+	}
+}

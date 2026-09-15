@@ -1,0 +1,11 @@
+{
+	"variations": {
+		"SMB1": {
+			"choices": [
+            			{"source": "Mario64_Slider.bgm"},
+            			{"source": "Mario64_MetallicMario.bgm"}
+        		]
+		},
+		"SMBANN": {"source": "ANN/SliderSM64-MarioKartWorld.bgm"}
+	}
+}

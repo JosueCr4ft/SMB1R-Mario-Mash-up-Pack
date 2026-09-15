@@ -1,0 +1,5 @@
+{
+	"variations": {
+		"default": {"source": "BarrelDestructionParticle.png", "rect": [0.0, 0.0, 8.0, 8.0]}
+	}
+}

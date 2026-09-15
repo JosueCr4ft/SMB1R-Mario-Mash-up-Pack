@@ -1,0 +1,9 @@
+{
+	"variations": {
+		"choices": [
+			{"source": "Mario64_KoopaRoad.bgm"},
+			{"source": "Mario64_HauntedHouse.bgm"},
+			{"source": "Mario64_UltimateKoopa.bgm"}
+		]
+	}
+}

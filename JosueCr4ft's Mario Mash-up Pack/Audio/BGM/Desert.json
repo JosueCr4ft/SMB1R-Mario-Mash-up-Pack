@@ -1,0 +1,14 @@
+{
+	"variations": {
+		"SMB1": {"source": "Mario64_FireBubble.bgm"},
+		"SMBANN": {
+			"choices": [
+            			{"source": "ANN/MainThemeSM64Band-MarioKartWorld.bgm"},
+            			{"source": "ANN/MainThemeSM64Latin-MarioKartWorld.bgm"},
+            			{"source": "ANN/FileSelectSM64-MarioKartWorld.bgm"},
+            			{"source": "ANN/PeachsCastleSM64-MarioKartWorld.bgm"},
+            			{"source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.bgm"}
+        		]
+		}
+	}
+}

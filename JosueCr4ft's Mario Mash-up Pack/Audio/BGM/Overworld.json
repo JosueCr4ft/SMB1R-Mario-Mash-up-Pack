@@ -1,0 +1,23 @@
+{
+	"variations": {
+		"SMB1": {
+			"choices": [
+            			{"source": "Mario64_MainTheme.bgm"},
+            			{"source": "Mario64_Title.bgm"},
+            			{"source": "Mario64_FileSelect.bgm"},
+            			{"source": "Mario64_Castle.bgm"},
+            			{"source": "Mario64_PakkunFlowersLullaby.bgm"},
+            			{"source": "Mario64_MerryGoRound.bgm"}
+        		]
+		},
+		"SMBANN": {
+			"choices": [
+            			{"source": "ANN/MainThemeSM64Band-MarioKartWorld.bgm"},
+            			{"source": "ANN/MainThemeSM64Latin-MarioKartWorld.bgm"},
+            			{"source": "ANN/FileSelectSM64-MarioKartWorld.bgm"},
+            			{"source": "ANN/PeachsCastleSM64-MarioKartWorld.bgm"},
+            			{"source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.bgm"}
+        		]
+		}
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"variations": {
+		"default": {"source": "Sign.png", "rect": [0, 0, 96, 96]},
+		"Snow": {"source": "Sign.png", "rect": [96, 0, 96, 96]},
+		"Underwater": {"link": "Snow"},
+		"CastleWater": {"link": "Snow"},
+		"Autumn": {"source": "Sign.png", "rect": [192, 0, 96, 96]},
+		"Desert": {"source": "Sign.png", "rect": [288, 0, 96, 96]},
+		"Volcano": {"source": "Sign.png", "rect": [0, 96, 96, 96]},
+		"Jungle": {"source": "Sign.png", "rect": [96, 96, 96, 96]},
+		"Mountain": {"source": "Sign.png", "rect": [192, 96, 96, 96]},
+		"Garden": {"source": "Sign.png", "rect": [288, 96, 96, 96]}
+	}
+}
