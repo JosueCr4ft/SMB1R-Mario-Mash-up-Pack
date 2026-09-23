@@ -1,9 +1,21 @@
 {
 	"variations": {
-		"choices": [
-            {"source": "Mario64_FireBubble.bgm"},
-            {"source": "Mario64_CaveDungeon.bgm"},
-            {"source": "Mario64_KoopaTheme.bgm"}
-        ]
+		"config:Music": {
+			"Per theme": {"source": "Mario64_FireBubble.bgm"},
+			"Selected ones": {
+				"choices": [
+					{"source": "Mario64_FireBubble.bgm"},
+					{"source": "Mario64_CaveDungeon.bgm"},
+					{"source": "Mario64_KoopaTheme.bgm"}
+        			]
+			},
+			"Random": {
+				"choices": [
+					{"source": "Mario64_FireBubble.bgm"},
+					{"source": "Mario64_CaveDungeon.bgm"},
+					{"source": "Mario64_KoopaTheme.bgm"}
+        			]
+			}
+		}
 	}
 }

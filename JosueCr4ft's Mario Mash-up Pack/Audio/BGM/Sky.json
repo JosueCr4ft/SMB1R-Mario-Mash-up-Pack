@@ -1,12 +1,28 @@
 {
 	"variations": {
-		"choices": [
-            		{"source": "Mario64_MainTheme.bgm"},
-            		{"source": "Mario64_Title.bgm"},
-            		{"source": "Mario64_FileSelect.bgm"},
-            		{"source": "Mario64_Castle.bgm"},
-            		{"source": "Mario64_PakkunFlowersLullaby.bgm"},
-            		{"source": "Mario64_MerryGoRound.bgm"}
-        	]
+		"config:Music": {
+			"Per theme": {"source": "Mario64_Slider.bgm"},
+			"Selected ones": {
+				"choices": [
+            				{"source": "Mario64_MainTheme.bgm"},
+            				{"source": "Mario64_Castle.bgm"},
+            				{"source": "Mario64_PakkunFlowersLullaby.bgm"},
+            				{"source": "Mario64_MerryGoRound.bgm"},
+            				{"source": "Mario64_MetallicMario.bgm"}
+        			]
+			},
+			"Random": {
+				"choices": [
+					{"source": "Mario64_MainTheme.bgm"},
+					{"source": "Mario64_Castle.bgm"},
+					{"source": "Mario64_PakkunFlowersLullaby.bgm"},
+            				{"source": "Mario64_MerryGoRound.bgm"},
+            				{"source": "Mario64_Slider.bgm"},
+            				{"source": "Mario64_MetallicMario.bgm"},
+					{"source": "Mario64_SnowMountain.bgm"},
+					{"source": "Mario64_PowerfulMario.bgm"}
+        			]
+			}
+		}
 	}
 }

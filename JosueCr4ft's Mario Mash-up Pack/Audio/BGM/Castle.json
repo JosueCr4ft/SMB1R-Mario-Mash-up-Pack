@@ -1,6 +1,24 @@
 {
 	"variations": {
-		"SMB1": {"source": "Mario64_KoopaRoad.bgm"},
-		"SMBANN": {"source": "ANN/BowsersRoadSM64-MarioKartWorld.bgm"}
+		"SMB1": {
+			"config:Music": {
+				"Per theme": {"source": "Mario64_KoopaRoad.bgm"},
+				"Selected ones": {"source": "Mario64_KoopaRoad.bgm"},
+				"Random": {
+					"choices": [
+						{"source": "Mario64_FireBubble.bgm"},
+						{"source": "Mario64_CaveDungeon.bgm"},
+						{"source": "Mario64_KoopaTheme.bgm"}
+        				]
+				}
+			}
+		},
+		"SMBANN": {
+			"config:Music": {
+				"Per theme": {"source": "ANN/BowsersRoadSM64-MarioKartWorld.bgm"},
+				"Selected ones": {"source": "ANN/BowsersRoadSM64-MarioKartWorld.bgm"},
+				"Random": {"source": "ANN/BowsersThemeSM64-MarioKartWorld.bgm"},
+			}
+		}
 	}
 }

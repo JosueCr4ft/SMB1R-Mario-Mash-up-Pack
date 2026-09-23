@@ -1,9 +1,21 @@
 {
 	"variations": {
-		"choices": [
-			{"source": "Mario64_KoopaRoad.bgm"},
-			{"source": "Mario64_HauntedHouse.bgm"},
-			{"source": "Mario64_UltimateKoopa.bgm"}
-		]
+		"config:Music": {
+			"Per theme": {"source": "Mario64_KoopaRoad.bgm"},
+			"Selected ones": {
+				"choices": [
+					{"source": "Mario64_KoopaRoad.bgm"},
+					{"source": "Mario64_HauntedHouse.bgm"},
+					{"source": "Mario64_UltimateKoopa.bgm"}
+        			]
+			},
+			"Random": {
+				"choices": [
+					{"source": "Mario64_KoopaRoad.bgm"},
+					{"source": "Mario64_HauntedHouse.bgm"},
+					{"source": "Mario64_UltimateKoopa.bgm"}
+        			]
+			}
+		}
 	}
 }

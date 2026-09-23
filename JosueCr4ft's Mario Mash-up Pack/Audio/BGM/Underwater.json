@@ -1,5 +1,20 @@
 {
 	"variations": {
-		"default": { "source": "Mario64_DireDireDocks.bgm" }
+		"config:Music": {
+			"Per theme": {"source": "Mario64_DireDireDocks.bgm"},
+			"Selected ones": {"source": "Mario64_DireDireDocks.bgm"},
+			"Random": {
+				"choices": [
+					{"source": "Mario64_MainTheme.bgm"},
+					{"source": "Mario64_Castle.bgm"},
+					{"source": "Mario64_PakkunFlowersLullaby.bgm"},
+            				{"source": "Mario64_MerryGoRound.bgm"},
+            				{"source": "Mario64_Slider.bgm"},
+            				{"source": "Mario64_MetallicMario.bgm"},
+					{"source": "Mario64_SnowMountain.bgm"},
+					{"source": "Mario64_PowerfulMario.bgm"}
+        			]
+			}
+		}
 	}
 }

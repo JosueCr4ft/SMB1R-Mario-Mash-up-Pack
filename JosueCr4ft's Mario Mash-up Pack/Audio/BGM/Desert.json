@@ -1,14 +1,52 @@
 {
 	"variations": {
-		"SMB1": {"source": "Mario64_FireBubble.bgm"},
+		"SMB1": {
+			"config:Music": {
+				"Per theme": {"source": "Mario64_FireBubble.bgm"},
+				"Selected ones": {"source": "Mario64_FireBubble.bgm"},
+				"Random": {
+					"choices": [
+            					{"source": "Mario64_MainTheme.bgm"},
+            					{"source": "Mario64_Castle.bgm"},
+            					{"source": "Mario64_PakkunFlowersLullaby.bgm"},
+            					{"source": "Mario64_MerryGoRound.bgm"},
+            					{"source": "Mario64_Slider.bgm"},
+            					{"source": "Mario64_MetallicMario.bgm"},
+						{"source": "Mario64_SnowMountain.bgm"},
+						{"source": "Mario64_PowerfulMario.bgm"}
+        				]
+				}
+			}
+		},
 		"SMBANN": {
-			"choices": [
-            			{"source": "ANN/MainThemeSM64Band-MarioKartWorld.bgm"},
-            			{"source": "ANN/MainThemeSM64Latin-MarioKartWorld.bgm"},
-            			{"source": "ANN/FileSelectSM64-MarioKartWorld.bgm"},
-            			{"source": "ANN/PeachsCastleSM64-MarioKartWorld.bgm"},
-            			{"source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.bgm"}
-        		]
+			"config:Music": {
+				"Per theme": {
+					"choices": [
+            					{"source": "ANN/MainThemeSM64Band-MarioKartWorld.bgm"},
+            					{"source": "ANN/MainThemeSM64Latin-MarioKartWorld.bgm"},
+            					{"source": "ANN/PeachsCastleSM64-MarioKartWorld.bgm"},
+            					{"source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.bgm"}
+        				]
+				},
+				"Selected ones": {
+					"choices": [
+            					{"source": "ANN/MainThemeSM64Band-MarioKartWorld.bgm"},
+            					{"source": "ANN/MainThemeSM64Latin-MarioKartWorld.bgm"},
+            					{"source": "ANN/PeachsCastleSM64-MarioKartWorld.bgm"},
+            					{"source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.bgm"}
+        				]
+				},
+				"Random": {
+					"choices": [
+            					{"source": "ANN/MainThemeSM64Band-MarioKartWorld.bgm"},
+            					{"source": "ANN/MainThemeSM64Latin-MarioKartWorld.bgm"},
+            					{"source": "ANN/PeachsCastleSM64-MarioKartWorld.bgm"},
+            					{"source": "ANN/PiranhaPlantsLullabySM64-MarioKartWorld.bgm"},
+						{"source": "ANN/SliderSM64-MarioKartWorld.bgm"},
+						{"source": "ANN/CoolCoolMountainSM64-MarioKartWorld.bgm"}
+        				]
+				}
+			}
 		}
 	}
 }

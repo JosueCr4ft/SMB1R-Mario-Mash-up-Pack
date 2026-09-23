@@ -3,6 +3,6 @@
 		"SMB1": {"source": "Mario64_Title.mp3"},
 		"SMBLL": {"source": "Mario64_Title.mp3"},
 		"SMBS": {"source": "Mario64_Title.mp3"},
-		"SMBANN": {"source": "Mario64_Title.mp3"}
+		"SMBANN": {"source": "ANN/FileSelectSM64-MarioKartWorld.ogg"}
 	}
 }
