@@ -1,0 +1,19 @@
+{
+	"options": {
+		"Music": "Selected ones"
+	},
+	"value_keys": {
+		"Music": [
+			"Per theme",
+			"Selected ones",
+			"Random"
+		]
+	},
+	"option_descs": {
+		"Music": [
+			"Each theme uses only one specific music.",
+			"All themes use random music, but some themes specifically use certain musics. (This is the default option).",
+			"All themes use random music, depending on the theme."
+		]
+	}
+}
