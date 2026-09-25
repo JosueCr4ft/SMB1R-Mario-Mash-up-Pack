@@ -6,7 +6,10 @@
 		"Snow": {"source": "Snow.png"},
 		"Jungle": {"source": "Jungle.png"},
 		"Beach": {"source": "Beach.png"},
-		"Garden": {"source": "Garden.png"},
+		"Garden": {
+			"SMB1": {"source": "Garden.png"},
+			"SMBLL": {"source": "GardenLL.png"}
+		},
 		"Mountain": {"source": "Mountain.png"},
 		"Skyland": {"source": "Sky.png"},
 		"Autumn": {"source": "Autumn.png"},
