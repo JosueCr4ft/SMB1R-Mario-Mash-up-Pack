@@ -1,13 +1,11 @@
 {
 	"variations": {
-		"default": {
-			"source": "Liquids.png",
-			"rect": [0, 0, 512, 128]
+		"GameMode:Default": {
+			"default": {"source": "Liquids.png"},
+			"Underwater": {"source": "LiquidsUnderwater.png"},
+			"CastleWater": {"link": "Underwater"}
 		},
-		"Underwater": {
-			"source": "LiquidsUnderwater.png",
-			"rect": [0, 0, 512, 128]
-		},
-		"CastleWater": {"link": "Underwater"}
+		"GameMode:LevelEditor": {"source": "Liquids.png"},
+		"GameMode:CustomLevel": {"link": "GameMode:LevelEditor"}
 	}
 }
