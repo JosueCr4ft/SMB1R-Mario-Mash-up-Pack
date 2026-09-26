@@ -3,8 +3,7 @@
 		"primary_layer_size": [
 			512.0,
 			512.0
-		],
-		"top_edge_enabled": false
+		]
 	},
 	"animations": {
 		"default": {
