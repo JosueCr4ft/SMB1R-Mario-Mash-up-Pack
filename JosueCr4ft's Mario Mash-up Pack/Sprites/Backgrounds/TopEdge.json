@@ -1,0 +1,29 @@
+{
+	"animations": {
+		"default": {
+			"frames": [[0, 0, 256, 32]],
+			"speed": 5,
+			"loop": false
+		}
+	},
+	"variations": {
+		"GameMode:Default": {
+			"default": {
+				"source": "TopEdge.png",
+				"rect": [0, 0, 256, 32]
+			},
+			"Castle": {
+				"source": "TopEdge.png",
+				"rect": [0, 32, 256, 32]
+			}
+		},
+		"GameMode:LevelEditor": {
+			"source": "TopEdge.png",
+			"rect": [0, 0, 256, 32]
+		},
+		"GameMode:CustomLevel": {
+			"source": "TopEdge.png",
+			"rect": [0, 0, 256, 32]
+		}
+	}
+}
