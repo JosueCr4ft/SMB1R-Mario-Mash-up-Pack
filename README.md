@@ -1,7 +1,10 @@
 # Super Mario Mash-up Pack
-A resource Pack for Super Mario Bros. Remastered. 
+
+A resource pack for Super Mario Bros. Remastered.
 
 <img src="https://images.gamebanana.com/img/ss/wips/6a88efe0b8889.jpg" width="600" alt="SMB1R Mario Mash-up Cover"> 
+
+SMB1R meets Mario Mash-up Pack! This Resource Pack change all sprites into a Mario Mash-up style, save the princess in a new world to explore!
 
 ### Current version: 0.2.0
 
