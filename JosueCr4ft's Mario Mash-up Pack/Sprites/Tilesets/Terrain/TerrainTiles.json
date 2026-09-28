@@ -1,26 +1,121 @@
 {
 	"variations": {
-		"default": {"source": "Overworld.png"},
-		"Underground": {"source": "Underground.png"},
-		"Desert": {"source": "Desert.png"},
-		"Snow": {"source": "Snow.png"},
-		"Jungle": {"source": "Jungle.png"},
-		"Beach": {"source": "Beach.png"},
-		"Garden": {
-			"SMB1": {"source": "Garden.png"},
-			"SMBLL": {"source": "GardenLL.png"}
+		"default": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Overworld.png"},
+				"Block accurate": {"source": "Pipes/Overworld-Pipes.png"}
+			}
 		},
-		"Mountain": {"source": "Mountain.png"},
-		"Skyland": {"source": "Sky.png"},
+		"Underground": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Underground.png"},
+				"Block accurate": {"source": "Pipes/Underground-Pipes.png"}
+			}
+		},
+		"Desert": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Desert.png"},
+				"Block accurate": {"source": "Pipes/Desert-Pipes.png"}
+			}
+		},
+		"Snow": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Snow.png"},
+				"Block accurate": {"source": "Pipes/Snow-Pipes.png"}
+			}
+		},
+		"Jungle": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Jungle.png"},
+				"Block accurate": {"source": "Pipes/Jungle-Pipes.png"}
+			}
+		},
+		"Beach": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Beach.png"},
+				"Block accurate": {"source": "Pipes/Beach-Pipes.png"}
+			}
+		},
+		"Garden": {
+			"SMB1": {
+				"config:Pipes": {
+					"Cauldrons": {"source": "Garden.png"},
+					"Block accurate": {"source": "Pipes/Garden-Pipes.png"}
+				}
+			},
+			"SMBLL": {
+				"config:Pipes": {
+					"Cauldrons": {"source": "GardenLL.png"},
+					"Block accurate": {"source": "Pipes/GardenLL-Pipes.png"}
+				}
+			}
+		},
+		"Mountain": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Mountain.png"},
+				"Block accurate": {"source": "Pipes/Mountain-Pipes.png"}
+			}
+		},
+		"Skyland": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Sky.png"},
+				"Block accurate": {"source": "Pipes/Sky-Pipes.png"}
+			}
+		},
 		"Autumn": {"source": "Autumn.png"},
-		"Pipeland": {"source": "PipeLand.png"},
-		"Space": {"source": "Space.png"},
-		"Underwater": {"source": "Underwater.png"},
-		"Volcano": {"source": "Volcano.png"},
-		"GhostHouse": {"source": "GhostHouse.png"},
-		"Castle": {"source": "Castle.png"},
-		"CastleWater": {"source": "CastleWater.png"},
-		"Airship": {"source": "Airship.png"},
-		"Bonus": {"source": "Bonus.png"}
+		"Pipeland": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Pipeland.png"},
+				"Block accurate": {"source": "Pipes/Pipeland-Pipes.png"}
+			}
+		},
+		"Space": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Space.png"},
+				"Block accurate": {"source": "Pipes/Space-Pipes.png"}
+			}
+		},
+		"Underwater": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Underwater.png"},
+				"Block accurate": {"source": "Pipes/Underwater-Pipes.png"}
+			}
+		},
+		"Volcano": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Volcano.png"},
+				"Block accurate": {"source": "Pipes/Volcano-Pipes.png"}
+			}
+		},
+		"GhostHouse": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "GhostHouse.png"},
+				"Block accurate": {"source": "Pipes/GhostHouse-Pipes.png"}
+			}
+		},
+		"Castle": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Castle.png"},
+				"Block accurate": {"source": "Pipes/Castle-Pipes.png"}
+			}
+		},
+		"CastleWater": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "CastleWater.png"},
+				"Block accurate": {"source": "Pipes/CastleWater-Pipes.png"}
+			}
+		},
+		"Airship": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Airship.png"},
+				"Block accurate": {"source": "Pipes/Airship-Pipes.png"}
+			}
+		},
+		"Bonus": {
+			"config:Pipes": {
+				"Cauldrons": {"source": "Bonus.png"},
+				"Block accurate": {"source": "Pipes/Bonus-Pipes.png"}
+			}
+		}
 	}
 }

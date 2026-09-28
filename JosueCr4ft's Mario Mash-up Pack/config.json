@@ -1,12 +1,17 @@
 {
 	"options": {
-		"Music": "Selected ones"
+		"Music": "Selected ones",
+		"Pipes": "Block accurate"
 	},
 	"value_keys": {
 		"Music": [
 			"Per theme",
 			"Selected ones",
 			"Random"
+		],
+		"Pipes": [
+			"Cauldrons",
+			"Block accurate"
 		]
 	},
 	"option_descs": {
@@ -14,6 +19,10 @@
 			"Each theme uses only one specific music.",
 			"All themes use random music, but some themes specifically use certain musics. (This is the default option).",
 			"All themes use random music, depending on the theme."
+		],
+		"Pipes": [
+			"They look like the cauldron from the Mario Mash-up, but they aren't block accurate. (This is the default option).",
+			"They look like the pipes from the Mario Mash-up world, featuring colored terracotta stairs. While they don't exist in standard Minecraft for now, they are block accurate."
 		]
 	}
 }
