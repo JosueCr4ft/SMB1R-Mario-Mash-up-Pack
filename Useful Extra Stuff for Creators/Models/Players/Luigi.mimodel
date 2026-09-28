@@ -1,0 +1,158 @@
+{
+	"name": "Luigi",
+	"texture": "Luigi.png",
+	"texture_size": [ 64, 64 ],
+	"parts": [
+		{
+			"name": "body",
+			"position": [ 0, 12, 0 ],
+			"bend": {
+				"part": "upper",
+				"axis": [ "x", "y", "z" ],
+				"direction": [ "both", "both", "both" ],
+				"invert": [ 0, 0, 0 ],
+				"angle": [ 0, 0, 0 ],
+				"offset": 6,
+				"size": 8
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -4, 0, -2 ],
+					"to": [ 4, 12, 2 ],
+					"uv": [ 20, 20 ]
+				}
+			],
+			"parts": [
+				{
+					"name": "head",
+					"position": [ 0, 12, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -4, 0, -4 ],
+							"to": [ 4, 8, 4 ],
+							"uv": [ 8, 8 ]
+						},
+						{
+							"type": "block",
+							"from": [ -4, 0, -1 ],
+							"to": [ 4, 1, 1 ],
+							"position": [ 0, 6, 5 ],
+							"uv": [ 2, 35 ]
+						},
+						{
+							"type": "block",
+							"from": [ -2, 0, -2 ],
+							"to": [ 2, 1, 2 ],
+							"position": [ 2, 8, 2 ],
+							"uv": [ 28, 4 ]
+						},
+						{
+							"type": "block",
+							"from": [ -2, 0, -2 ],
+							"to": [ 2, 1, 2 ],
+							"position": [ -2, 8, 2 ],
+							"uv": [ 60, 4 ]
+						}
+					],
+					"parts": [
+						{
+							"name": "nose",
+							"position": [ 0, 3, 4 ],
+							"shapes": [
+								{
+									"type": "block",
+									"from": [ -1, 0, -1 ],
+									"to": [ 1, 2, 1 ],
+									"position": [ 0, -1, 1 ],
+									"uv": [ 2, 38 ]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "right_arm",
+					"position": [ -5.5, 10, 0 ],
+					"bend": {
+						"part": "lower",
+						"axis": "x",
+						"direction": "forward",
+						"invert": 0,
+						"angle": 0,
+						"offset": -4
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1.5, -10, -2 ],
+							"to": [ 1.5, 2, 2 ],
+							"uv": [ 45, 20 ]
+						}
+					]
+				},
+				{
+					"name": "left_arm",
+					"position": [ 5.5, 10, 0 ],
+					"bend": {
+						"part": "lower",
+						"axis": "x",
+						"direction": "forward",
+						"invert": 0,
+						"angle": 0,
+						"offset": -4
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1.5, -10, -2 ],
+							"to": [ 1.5, 2, 2 ],
+							"uv": [ 37, 52 ]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "right_leg",
+			"position": [ -2, 12, 0 ],
+			"bend": {
+				"part": "lower",
+				"axis": "x",
+				"direction": "backward",
+				"invert": 0,
+				"angle": 0,
+				"offset": -6
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -2, -12, -2 ],
+					"to": [ 2, 0, 2 ],
+					"uv": [ 4, 20 ]
+				}
+			]
+		},
+		{
+			"name": "left_leg",
+			"position": [ 2, 12, 0 ],
+			"bend": {
+				"part": "lower",
+				"axis": "x",
+				"direction": "backward",
+				"invert": 0,
+				"angle": 0,
+				"offset": -6
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -2, -12, -2 ],
+					"to": [ 2, 0, 2 ],
+					"uv": [ 20, 52 ]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,160 @@
+{
+	"name": "Blue Toad (Small)",
+	"texture": "SmallBlueToad.png",
+	"texture_size": [ 64, 64 ],
+	"player_skin": true,
+	"parts": [
+		{
+			"name": "body",
+			"position": [ 0, 4, 0 ],
+			"bend": {
+				"offset": 2.5,
+				"size": 10,
+				"part": "upper",
+				"axis": [ "x", "y", "z" ]
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -3, 0, -1.5 ],
+					"to": [ 3, 5, 1.5 ],
+					"uv": [ 15, 19 ]
+				}
+			],
+			"parts": [
+				{
+					"name": "head",
+					"position": [ 0, 5, 0 ],
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -4, 0, -4 ],
+							"to": [ 4, 8, 4 ],
+							"uv": [ 8, 8 ]
+						},
+						{
+							"type": "block",
+							"from": [ -5.5, 5, -0.5 ],
+							"to": [ 5.5, 12, 0.5 ],
+							"uv": [ 1, 57 ],
+							"position": [ 0.5, 0, 5.5 ]
+						},
+						{
+							"type": "block",
+							"from": [ -5.5, 5, -0.5 ],
+							"to": [ 5.5, 12, 0.5 ],
+							"uv": [ 25, 1 ],
+							"position": [ -0.5, 0, -5.5 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.5, 5, -5.5 ],
+							"to": [ 0.5, 12, 5.5 ],
+							"uv": [ 16, 49 ],
+							"position": [ 5.5, 0, -0.5 ]
+						},
+						{
+							"type": "block",
+							"from": [ -0.5, 5, -5.5 ],
+							"to": [ 0.5, 12, 5.5 ],
+							"uv": [ 29, 42 ],
+							"position": [ -5.5, 0, 0.5 ]
+						},
+						{
+							"type": "block",
+							"from": [ -5, 12, -5 ],
+							"to": [ 5, 13, 5 ],
+							"uv": [ 34, 63 ]
+						},
+						{
+							"type": "block",
+							"from": [ -5, 5, -5 ],
+							"to": [ 5, 6, 5 ],
+							"uv": [ 34, 63 ]
+						}
+					]
+				},
+				{
+					"name": "right_arm",
+					"position": [ -4, 4, 0 ],
+					"bend": {
+						"offset": -1.5,
+						"part": "lower",
+						"axis": "x",
+						"direction_min": 0,
+						"invert": true
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1, -5, -1.5 ],
+							"to": [ 1, 0, 1.5 ],
+							"uv": [ 33, 19 ],
+							"position": [ 0, 1, 0 ]
+						}
+					]
+				},
+				{
+					"name": "left_arm",
+					"position": [ 4, 4, 0 ],
+					"bend": {
+						"offset": -1.5,
+						"part": "lower",
+						"axis": "x",
+						"direction_min": 0,
+						"invert": true
+					},
+					"shapes": [
+						{
+							"type": "block",
+							"from": [ -1, -5, -1.5 ],
+							"to": [ 1, 0, 1.5 ],
+							"uv": [ 33, 19 ],
+							"position": [ 0, 1, 0 ],
+							"texture_mirror": true
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "right_leg",
+			"position": [ -1.5, 4, 0 ],
+			"bend": {
+				"offset": -2,
+				"part": "lower",
+				"axis": "x",
+				"direction_min": 0
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -1.5, -6, -1.5 ],
+					"to": [ 1.5, -2, 1.5 ],
+					"uv": [ 3, 19 ],
+					"position": [ 0, 2, 0 ]
+				}
+			]
+		},
+		{
+			"name": "left_leg",
+			"position": [ 1.5, 4, 0 ],
+			"bend": {
+				"offset": -2,
+				"part": "lower",
+				"axis": "x",
+				"direction_min": 0
+			},
+			"shapes": [
+				{
+					"type": "block",
+					"from": [ -1.5, -6, -1.5 ],
+					"to": [ 1.5, -2, 1.5 ],
+					"uv": [ 3, 19 ],
+					"position": [ 0, 2, 0 ],
+					"texture_mirror": true
+				}
+			]
+		}
+	]
+}
