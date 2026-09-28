@@ -84,22 +84,8 @@
 				}
 			}
 		},
-		"Castle": {
-			"SMB1": {
-				"source": "Castle.png"
-			},
-			"SMBLL": {
-				"source": "CastleLL.png"
-			}
-		},
-		"GhostHouse": {
-			"SMB1": {
-				"source": "GhostHouse.png"
-			},
-			"SMBLL": {
-				"source": "GhostHouseLL.png"
-			}
-		},
+		"Castle": {"source": "Castle.png"},
+		"GhostHouse": {"source": "GhostHouse.png"},
 		"Snow": {
 			"SMB1": {
 				"Day": {
@@ -173,7 +159,7 @@
 			},
 			"Night": {
 				"SMB1": {
-					"source": "PipelandNight.png"
+					"source": "Pipeland.png"
 				},
 				"SMBLL": {
 					"source": "PipelandNightLL.png"
@@ -263,7 +249,7 @@
 		"Garden": {
 			"SMB1": {
 				"Day": {
-					"source": "GardenHill.png"
+					"source": "Garden.png"
 				},
 				"Night": {
 					"source": "GardenNight.png"
@@ -271,10 +257,10 @@
 			},
 			"SMBLL": {
 				"Day": {
-					"source": "GardenHillLL.png"
+					"source": "GardenLL.png"
 				},
 				"Night": {
-					"source": "GardenHillNightLL.png"
+					"source": "GardenNightLL.png"
 				}
 			}
 		},
@@ -307,13 +293,6 @@
 		"Airship": {
 			"link": "Skyland"
 		},
-		"Bonus": {
-			"SMB1": {
-				"source": "Bonus.png"
-			},
-			"SMBLL": {
-				"source": "BonusLL.png"
-			}
-		}
+		"Bonus": {"source": "Bonus.png"}
 	}
 }
