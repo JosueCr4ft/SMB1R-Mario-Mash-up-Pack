@@ -1,0 +1,13 @@
+{
+	"animations": {
+		"Idle": {
+			"frames": [[0, 0, 24, 24]],
+			"speed": 0,
+			"loop": true
+		}
+	},
+	"variations": {
+		"source": "Icons.png",
+		"rect": [48, 0, 24, 24]
+	}
+}
