@@ -1,7 +1,8 @@
 {
 	"options": {
 		"Music": "Selected ones",
-		"Pipes": "Cauldrons"
+		"Pipes": "Cauldrons",
+		"Easter Egg": "Disabled"
 	},
 	"value_keys": {
 		"Music": [
@@ -12,6 +13,10 @@
 		"Pipes": [
 			"Cauldrons",
 			"Block accurate"
+		],
+		"Easter Egg": [
+			"Disabled",
+			"Enabled"
 		]
 	},
 	"option_descs": {
@@ -23,6 +28,10 @@
 		"Pipes": [
 			"They look like the cauldron from the Mario Mash-up, but they aren't block accurate. (This is the default option).",
 			"They look like the pipes from the Mario Mash-up world, featuring colored terracotta stairs. While they don't exist in standard Minecraft for now, they are block accurate."
+		],
+		"Easter Egg": [
+			"Disable the secret easter egg.",
+			"Enable the secret easter egg. Can you find out what it is?"
 		]
 	}
 }

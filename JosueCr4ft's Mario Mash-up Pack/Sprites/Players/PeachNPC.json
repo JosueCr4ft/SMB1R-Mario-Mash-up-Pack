@@ -1,18 +1,23 @@
 {
 	"variations": {
-		"SMB1": {
-			"World1": {
-				"source": "Peach.png",
-				"rect": [0, 0, 32, 40]
-			},
-			"World-1": {
-				"source": "Peach.png",
-				"rect": [32, 0, 32, 40]
+		"World1": {
+			"config:Easter Egg": {
+				"Disabled": {
+					"source": "Peach.png",
+					"rect": [0, 0, 32, 40]
+				},
+				"Enabled": {
+					"Character:default": {
+						"source": "Peach.png",
+						"rect": [0, 0, 32, 40]
+					},
+					"Character:Toad": {"source": "Larrette.png"}
+				}
 			}
 		},
-		"SMBLL": {
+		"World-1": {
 			"source": "Peach.png",
-			"rect": [0, 5, 32, 35]
+			"rect": [32, 0, 32, 40]
 		}
 	}
 }
