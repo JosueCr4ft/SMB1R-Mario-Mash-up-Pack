@@ -24,6 +24,6 @@
 		}
 	},
 	"variations": {
-		"default": {"source": "LuckyStar.png", "rect": [32, 64, 32, 16]}
+		"default": {"source": "LuckyStar.png"}
 	}
 }
