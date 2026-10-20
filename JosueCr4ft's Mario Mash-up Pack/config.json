@@ -1,10 +1,15 @@
 {
 	"options": {
+		"Players Animations": "Vanilla",
 		"Music": "Selected ones",
 		"Pipes": "Cauldrons",
 		"Easter Egg": "Disabled"
 	},
 	"value_keys": {
+		"Players Animations": [
+			"Vanilla",
+			"Custom"
+		],
 		"Music": [
 			"Per theme",
 			"Selected ones",
@@ -20,6 +25,10 @@
 		]
 	},
 	"option_descs": {
+		"Players Animations": [
+			"The player animations are Minecraft Vanilla-like. (This is the default option).",
+			"Some player animations are custom and Minecraft stylized."
+		],
 		"Music": [
 			"Each theme uses only one specific music.",
 			"All themes use random music, but some themes specifically use certain musics. (This is the default option).",
