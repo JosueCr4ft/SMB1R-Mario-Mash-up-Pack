@@ -1,0 +1,46 @@
+{
+	"name": "CHAR_MARIO",
+	"physics": {
+		"PHYSICS_PARAMETERS": {
+			"Default": {},
+			"Small": {},
+			"Big": {},
+			"Fire": {},
+		},
+		"CLASSIC_PARAMETERS": {
+			"Default": {},
+			"Small": {},
+			"Big": {},
+			"Fire": {},
+		},
+		"ENDING_PARAMETERS": {
+			"Default": {},
+			"Small": {},
+			"Big": {},
+			"Fire": {},
+		},
+		"DEATH_PARAMETERS": {
+			"Default": {}
+		},
+		"COSMETIC_PARAMETERS": {
+			"Default": {},
+			"Small": {},
+			"Big": {},
+			"Fire": {},
+		},
+		"POWER_PARAMETERS": {
+			"Small": {
+				"PROJ_TYPE": "res://Scenes/Prefabs/Entities/EntityGib",
+				"MAX_PROJ_COUNT": 1,
+				"PROJ_LIFETIME": 0.1,
+				"PROJ_SFX_THROW": "secret"
+			},
+			"Big": {
+				"PROJ_TYPE": "res://Scenes/Prefabs/Entities/EntityGib",
+				"MAX_PROJ_COUNT": 1,
+				"PROJ_LIFETIME": 0.1,
+				"PROJ_SFX_THROW": "secret"
+			}
+		}
+	}
+}
